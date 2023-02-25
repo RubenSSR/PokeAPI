@@ -1,0 +1,94 @@
+form {
+    margin: 20px auto;
+}
+
+input {
+    width: 95%;
+    padding: 10px;
+    margin: -.5%;
+}
+
+p{
+    text-align: center;
+    text-shadow: 0 0 3px #04c1da;
+    text-decoration: overline;
+}
+
+h5{
+    text-align: center;
+    text-transform: uppercase;
+}
+
+body
+{
+ background-color:rgb(0, 0, 0);
+ background-image: url(https://p4.wallpaperbetter.com/wallpaper/320/774/377/water-grass-pixel-art-sun-wallpaper-preview.jpg);
+ background-size: 94cqmax;
+} 
+
+.poke-card {
+    position: relative;
+    height: fit-content;
+    font-family: 'Georgia';
+    max-width: 300px;
+    border-radius: 4px;
+    color: #000;
+    text-align: center;
+    padding: 10px;
+    margin: 0 auto;
+    background-color: #000000;
+    border: 3px solid rgb(255, 255, 255);
+}
+
+.poke-card::before {
+    content: '';
+    background: radial-gradient(black 33%, transparent 33%);
+    background-size: 3px 3px;
+    border-radius: 4px;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    left: 10px;
+    top: 10px;
+    z-index: -1;
+}
+
+.img-container {
+    position: center;
+    width: 180px;
+    margin: 10px auto;
+    
+}
+
+.poke-stats div {
+    display: flex;
+    justify-content: space-between;
+    align-content: space-between;
+    padding: 5px;
+    font-size: 18px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.poke-types div {
+    padding: 5px;
+    margin: 5px;
+    border-radius: 15px;
+    border: 5px double #000000;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+button {
+    border: none;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    margin: 5px -1px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    width: 94.5%;
+    padding: 10px;
+  }
